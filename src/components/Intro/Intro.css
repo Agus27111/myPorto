@@ -1,0 +1,17 @@
+.section {
+    min-height: 90vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 50px; 
+    border: 1px solid black;
+    background: black;
+}
+
+.grid-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+    border: 1px solid red; 
+}
+
