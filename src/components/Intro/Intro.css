@@ -1,17 +1,19 @@
-.section {
+.intro {
     min-height: 90vh;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 50px; 
-    border: 1px solid black;
-    background: black;
+    /* padding: 45vh 0; */
 }
+.intro-left {
+    
+    padding: 45vh 0;
 
-.grid-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px; 
-    border: 1px solid red; 
 }
-
+.img-avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 59% 23% 77% 41%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10vh 0;
+    
+}
